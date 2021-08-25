@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:viewmodels="clr-namespace:SimpleMVVMLogin.ViewModels" 
+             x:DataType="viewmodels:LoginViewModel"
              x:Class="SimpleMVVMLogin.Views.LoginPage"
              BackgroundColor="#1ea0c4">
     <ContentPage.Content>
@@ -15,6 +17,7 @@
 
             <Entry 
                 Grid.Row="1"
+                Text="{Binding User.Email}"
                 TextTransform="Lowercase"
                 Placeholder="email"
                 PlaceholderColor="#9bd7e7"
@@ -22,6 +25,7 @@
 
             <Entry 
                 Grid.Row="2"
+                Text="{Binding User.Password}"
                 IsPassword="True"
                 Placeholder="password"
                 PlaceholderColor="#9bd7e7"
@@ -32,7 +36,9 @@
                 Text="Log in"
                 BackgroundColor="#096f88"
                 TextColor="#9bd7e7"
-                CornerRadius="5"/>
+                CornerRadius="5"
+                Command="{Binding LogUserCommand}"
+                CommandParameter="{Binding User}"/>
 
             <Label 
                 Grid.Row="4"
