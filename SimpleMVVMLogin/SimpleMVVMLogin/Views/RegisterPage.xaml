@@ -2,21 +2,29 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              xmlns:viewmodels="clr-namespace:SimpleMVVMLogin.ViewModels" 
-             x:DataType="viewmodels:LoginViewModel"
-             x:Class="SimpleMVVMLogin.Views.LoginPage"
+             x:DataType="viewmodels:RegisterViewModel"
+             x:Class="SimpleMVVMLogin.Views.RegisterPage"
              BackgroundColor="#1ea0c4">
     <ContentPage.Content>
-        <Grid 
-            RowDefinitions="Auto, Auto, Auto, Auto, Auto"  
+        <Grid
+            RowDefinitions="Auto, Auto, Auto, Auto, Auto, Auto"
             VerticalOptions="Center"
             Padding="30, -50, 30, 0">
 
-            <Image 
+            <Image
                 Grid.Row="0"
                 Source="bandcamp_logotype"/>
 
-            <Entry 
+            <Entry
                 Grid.Row="1"
+                Text="{Binding User.Name}"
+                Keyboard="Text"
+                Placeholder="Name"
+                PlaceholderColor="#9bd7e7"
+                TextColor="#ffffff"/>
+
+            <Entry
+                Grid.Row="2"
                 Text="{Binding User.Email}"
                 Keyboard="Email"
                 TextTransform="Lowercase"
@@ -24,42 +32,30 @@
                 PlaceholderColor="#9bd7e7"
                 TextColor="#ffffff"/>
 
-            <Entry 
-                Grid.Row="2"
+            <Entry
+                Grid.Row="3"
                 Text="{Binding User.Password}"
                 IsPassword="True"
                 Placeholder="Password"
                 PlaceholderColor="#9bd7e7"
                 TextColor="#ffffff"/>
 
-            <Button 
-                Grid.Row="3"
-                Text="Log in"
+            <Entry
+                Grid.Row="4"
+                Text="{Binding ConfirmedPassword}"
+                IsPassword="True"
+                Placeholder="Confirm Password"
+                PlaceholderColor="#9bd7e7"
+                TextColor="#ffffff"/>
+
+            <Button
+                Grid.Row="5"
+                Text="Register"
                 BackgroundColor="#096f88"
                 TextColor="#9bd7e7"
                 CornerRadius="5"
-                Command="{Binding LogUserCommand}"
+                Command="{Binding RegisterUserCommand}"
                 CommandParameter="{Binding User}"/>
-
-            <Label 
-                Grid.Row="4"
-                HorizontalOptions="Center">
-                <Label.FormattedText>
-                    <FormattedString>
-                        <Span 
-                            Text="Sign up for an account" 
-                            FontAttributes="Bold"
-                            TextColor="#9bd7e7"
-                            TextDecorations="Underline">
-
-                            <Span.GestureRecognizers>
-                                <TapGestureRecognizer/>
-                            </Span.GestureRecognizers>
-                        </Span>
-                    </FormattedString>
-                </Label.FormattedText>
-            </Label>
-            
         </Grid>
     </ContentPage.Content>
 </ContentPage>
