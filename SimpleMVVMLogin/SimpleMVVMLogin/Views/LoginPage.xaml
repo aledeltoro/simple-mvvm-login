@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SimpleMVVMLogin.Views.LoginPage"
+             BackgroundColor="#1ea0c4">
+    <ContentPage.Content>
+        <Grid 
+            RowDefinitions="Auto, Auto, Auto, Auto, Auto"  
+            VerticalOptions="Center"
+            Padding="30, -50, 30, 0">
+
+            <Image 
+                Grid.Row="0"
+                Source="bandcamp_logotype"/>
+
+            <Entry 
+                Grid.Row="1"
+                TextTransform="Lowercase"
+                Placeholder="email"
+                PlaceholderColor="#9bd7e7"
+                TextColor="#ffffff"/>
+
+            <Entry 
+                Grid.Row="2"
+                IsPassword="True"
+                Placeholder="password"
+                PlaceholderColor="#9bd7e7"
+                TextColor="#ffffff"/>
+
+            <Button 
+                Grid.Row="3"
+                Text="Log in"
+                BackgroundColor="#096f88"
+                TextColor="#9bd7e7"
+                CornerRadius="5"/>
+
+            <Label 
+                Grid.Row="4"
+                HorizontalOptions="Center">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span 
+                            Text="Sign up for an account" 
+                            FontAttributes="Bold"
+                            TextColor="#9bd7e7"
+                            TextDecorations="Underline">
+
+                            <Span.GestureRecognizers>
+                                <TapGestureRecognizer/>
+                            </Span.GestureRecognizers>
+                        </Span>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
