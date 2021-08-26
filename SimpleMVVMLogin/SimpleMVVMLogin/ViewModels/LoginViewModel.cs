@@ -1,4 +1,5 @@
 ﻿using SimpleMVVMLogin.Models;
+using SimpleMVVMLogin.Views;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -13,12 +14,17 @@ namespace SimpleMVVMLogin.ViewModels
         public User User { get; set; } = new User();
 
         public ICommand LogUserCommand { get; set; }
+        public ICommand NavigateRegisterPageCommand { get; set; }
 
         public event PropertyChangedEventHandler PropertyChanged;
 
         public LoginViewModel()
         {
             LogUserCommand = new Command<User>(LogUser);
+            NavigateRegisterPageCommand = new Command(async () =>
+            {
+                await App.Current.MainPage.Navigation.PushAsync(new RegisterPage());
+            });
         }
 
         private async void LogUser(User user)
