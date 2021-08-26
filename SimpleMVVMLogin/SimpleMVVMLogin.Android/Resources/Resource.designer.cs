@@ -11782,13 +11782,142 @@ namespace SimpleMVVMLogin.Droid
 			public const int notify_panel_notification_icon_bg = 2131165325;
 			
 			// aapt resource value: 0x7F07008E
-			public const int test_custom_background = 2131165326;
+			public const int outline_fastfood_24 = 2131165326;
 			
 			// aapt resource value: 0x7F07008F
-			public const int tooltip_frame_dark = 2131165327;
+			public const int outline_fastfood_black_18 = 2131165327;
 			
 			// aapt resource value: 0x7F070090
-			public const int tooltip_frame_light = 2131165328;
+			public const int outline_fastfood_black_20 = 2131165328;
+			
+			// aapt resource value: 0x7F070091
+			public const int outline_fastfood_black_24 = 2131165329;
+			
+			// aapt resource value: 0x7F070092
+			public const int outline_fastfood_black_36 = 2131165330;
+			
+			// aapt resource value: 0x7F070093
+			public const int outline_fastfood_black_48 = 2131165331;
+			
+			// aapt resource value: 0x7F070094
+			public const int outline_home_24 = 2131165332;
+			
+			// aapt resource value: 0x7F070095
+			public const int outline_home_black_18 = 2131165333;
+			
+			// aapt resource value: 0x7F070096
+			public const int outline_home_black_20 = 2131165334;
+			
+			// aapt resource value: 0x7F070097
+			public const int outline_home_black_24 = 2131165335;
+			
+			// aapt resource value: 0x7F070098
+			public const int outline_home_black_36 = 2131165336;
+			
+			// aapt resource value: 0x7F070099
+			public const int outline_home_black_48 = 2131165337;
+			
+			// aapt resource value: 0x7F07009A
+			public const int outline_local_pizza_24 = 2131165338;
+			
+			// aapt resource value: 0x7F07009B
+			public const int outline_local_pizza_black_18 = 2131165339;
+			
+			// aapt resource value: 0x7F07009C
+			public const int outline_local_pizza_black_20 = 2131165340;
+			
+			// aapt resource value: 0x7F07009D
+			public const int outline_local_pizza_black_24 = 2131165341;
+			
+			// aapt resource value: 0x7F07009E
+			public const int outline_local_pizza_black_36 = 2131165342;
+			
+			// aapt resource value: 0x7F07009F
+			public const int outline_local_pizza_black_48 = 2131165343;
+			
+			// aapt resource value: 0x7F0700A0
+			public const int outline_place_24 = 2131165344;
+			
+			// aapt resource value: 0x7F0700A1
+			public const int outline_place_black_18 = 2131165345;
+			
+			// aapt resource value: 0x7F0700A2
+			public const int outline_place_black_20 = 2131165346;
+			
+			// aapt resource value: 0x7F0700A3
+			public const int outline_place_black_24 = 2131165347;
+			
+			// aapt resource value: 0x7F0700A4
+			public const int outline_place_black_36 = 2131165348;
+			
+			// aapt resource value: 0x7F0700A5
+			public const int outline_place_black_48 = 2131165349;
+			
+			// aapt resource value: 0x7F0700A6
+			public const int outline_restaurant_24 = 2131165350;
+			
+			// aapt resource value: 0x7F0700A7
+			public const int outline_restaurant_black_18 = 2131165351;
+			
+			// aapt resource value: 0x7F0700A8
+			public const int outline_restaurant_black_20 = 2131165352;
+			
+			// aapt resource value: 0x7F0700A9
+			public const int outline_restaurant_black_24 = 2131165353;
+			
+			// aapt resource value: 0x7F0700AA
+			public const int outline_restaurant_black_36 = 2131165354;
+			
+			// aapt resource value: 0x7F0700AB
+			public const int outline_restaurant_black_48 = 2131165355;
+			
+			// aapt resource value: 0x7F0700AC
+			public const int outline_sports_bar_20 = 2131165356;
+			
+			// aapt resource value: 0x7F0700AD
+			public const int outline_sports_bar_24 = 2131165357;
+			
+			// aapt resource value: 0x7F0700AE
+			public const int outline_sports_bar_black_18 = 2131165358;
+			
+			// aapt resource value: 0x7F0700AF
+			public const int outline_sports_bar_black_20 = 2131165359;
+			
+			// aapt resource value: 0x7F0700B0
+			public const int outline_sports_bar_black_24 = 2131165360;
+			
+			// aapt resource value: 0x7F0700B1
+			public const int outline_sports_bar_black_36 = 2131165361;
+			
+			// aapt resource value: 0x7F0700B2
+			public const int outline_sports_bar_black_48 = 2131165362;
+			
+			// aapt resource value: 0x7F0700B3
+			public const int outline_storefront_24 = 2131165363;
+			
+			// aapt resource value: 0x7F0700B4
+			public const int outline_storefront_black_18 = 2131165364;
+			
+			// aapt resource value: 0x7F0700B5
+			public const int outline_storefront_black_20 = 2131165365;
+			
+			// aapt resource value: 0x7F0700B6
+			public const int outline_storefront_black_24 = 2131165366;
+			
+			// aapt resource value: 0x7F0700B7
+			public const int outline_storefront_black_36 = 2131165367;
+			
+			// aapt resource value: 0x7F0700B8
+			public const int outline_storefront_black_48 = 2131165368;
+			
+			// aapt resource value: 0x7F0700B9
+			public const int test_custom_background = 2131165369;
+			
+			// aapt resource value: 0x7F0700BA
+			public const int tooltip_frame_dark = 2131165370;
+			
+			// aapt resource value: 0x7F0700BB
+			public const int tooltip_frame_light = 2131165371;
 			
 			static Drawable()
 			{

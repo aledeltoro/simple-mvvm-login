@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="clr-namespace:SimpleMVVMLogin.ViewModels"
+             x:DataType="viewModels:HomeViewModel"
+             x:Class="SimpleMVVMLogin.Views.HomePage"
+             xmlns:controls="clr-namespace:SimpleMVVMLogin.Controls">
+    <ContentPage.Content>
+        <Grid
+            RowDefinitions="*, *, *"
+            ColumnDefinitions="*,*"
+            Padding="20, 30">
+
+            <controls:DashboardButton 
+                Grid.Row="0"
+                Grid.Column="0"
+                Grid.ColumnSpan="1"
+                ButtonTitle="{Binding BarAndHotelsOption.Title}"
+                ButtonSubtitle="{Binding BarAndHotelsOption.Place}"
+                IconImageSource="{Binding BarAndHotelsOption.Source}"/>
+
+            <controls:DashboardButton 
+                Grid.Row="0"
+                Grid.Column="1"
+                Grid.ColumnSpan="1"
+                ButtonTitle="{Binding FineDiningOption.Title}"
+                ButtonSubtitle="{Binding FineDiningOption.Place}"
+                IconImageSource="{Binding FineDiningOption.Source}"/>
+
+            <controls:DashboardButton 
+                Grid.Row="1"
+                Grid.Column="0"
+                Grid.ColumnSpan="1"
+                ButtonTitle="{Binding CafesOption.Title}"
+                ButtonSubtitle="{Binding CafesOption.Place}"
+                IconImageSource="{Binding CafesOption.Source}"/>
+
+            <controls:DashboardButton 
+                Grid.Row="1"
+                Grid.Column="1"
+                Grid.ColumnSpan="1"
+                ButtonTitle="{Binding NearbyOption.Title}"
+                ButtonSubtitle="{Binding NearbyOption.Place}"
+                IconImageSource="{Binding NearbyOption.Source}"/>
+
+            <controls:DashboardButton 
+                Grid.Row="2"
+                Grid.Column="0"
+                Grid.ColumnSpan="1"
+                ButtonTitle="{Binding FastFoodsOption.Title}"
+                ButtonSubtitle="{Binding FastFoodsOption.Place}"
+                IconImageSource="{Binding FastFoodsOption.Source}"/>
+
+            <controls:DashboardButton 
+                Grid.Row="2"
+                Grid.Column="1"
+                Grid.ColumnSpan="1"
+                ButtonTitle="{Binding FeaturedFoodsOption.Title}"
+                ButtonSubtitle="{Binding FeaturedFoodsOption.Place}"
+                IconImageSource="{Binding FeaturedFoodsOption.Source}"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
