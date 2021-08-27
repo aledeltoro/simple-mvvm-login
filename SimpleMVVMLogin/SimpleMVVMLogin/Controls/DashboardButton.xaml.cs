@@ -14,7 +14,7 @@ namespace SimpleMVVMLogin.Controls
     {
         public static readonly BindableProperty ButtonTitleProperty = BindableProperty.Create(nameof(ButtonTitle), typeof(string), typeof(DashboardButton), string.Empty);
         public static readonly BindableProperty ButtonSubtitleProperty = BindableProperty.Create(nameof(ButtonSubtitle), typeof(string), typeof(DashboardButton), string.Empty);
-        public static readonly BindableProperty IconImageSourceProperty = BindableProperty.Create(nameof(IconImageSource), typeof(string), typeof(DashboardButton), default(ImageSource));
+        public static readonly BindableProperty IconImageSourceProperty = BindableProperty.Create(nameof(IconImageSource), typeof(ImageSource), typeof(DashboardButton), default(ImageSource));
         
         public string ButtonTitle
         {

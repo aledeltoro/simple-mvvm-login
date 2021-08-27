@@ -11,7 +11,7 @@ namespace SimpleMVVMLogin
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new ContainerTabbedPage());
+            MainPage = new NavigationPage(new LoginPage());
         }
 
         protected override void OnStart()

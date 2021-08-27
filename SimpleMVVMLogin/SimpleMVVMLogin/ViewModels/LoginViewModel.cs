@@ -36,6 +36,7 @@ namespace SimpleMVVMLogin.ViewModels
             if (areFieldsFull)
             {
                 await App.Current.MainPage.DisplayAlert("Welcome", $"Hey {user.Email}", "Ok");
+                await App.Current.MainPage.Navigation.PushAsync(new ContainerTabbedPage());
                 return;
             }
 

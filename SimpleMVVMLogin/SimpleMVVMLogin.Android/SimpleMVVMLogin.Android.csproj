@@ -84,9 +84,6 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\beer_mug\res\drawable\outline_sports_bar_20.xml" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\SimpleMVVMLogin\SimpleMVVMLogin.csproj">
       <Project>{7E180587-CDFF-4FC1-B8FB-64A769F09E9E}</Project>
       <Name>SimpleMVVMLogin</Name>
@@ -108,238 +105,82 @@
     <AndroidResource Include="Resources\drawable\bandcamp_logotype\res\drawable-xxxhdpi\bandcamp_logotype.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\beer_mug\res\drawable\outline_sports_bar_24.xml" />
+    <AndroidResource Include="Resources\drawable\fine_dining\res\drawable\outline_restaurant_24.xml" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\beer_mug\res\drawable-hdpi\outline_sports_bar_black_18.png" />
+    <AndroidResource Include="Resources\drawable\fine_dining\res\drawable-hdpi\outline_restaurant_black_18.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\beer_mug\res\drawable-hdpi\outline_sports_bar_black_20.png" />
+    <AndroidResource Include="Resources\drawable\fine_dining\res\drawable-hdpi\outline_restaurant_black_20.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\beer_mug\res\drawable-hdpi\outline_sports_bar_black_24.png" />
+    <AndroidResource Include="Resources\drawable\fine_dining\res\drawable-hdpi\outline_restaurant_black_24.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\beer_mug\res\drawable-hdpi\outline_sports_bar_black_36.png" />
+    <AndroidResource Include="Resources\drawable\fine_dining\res\drawable-hdpi\outline_restaurant_black_36.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\beer_mug\res\drawable-hdpi\outline_sports_bar_black_48.png" />
+    <AndroidResource Include="Resources\drawable\fine_dining\res\drawable-hdpi\outline_restaurant_black_48.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\beer_mug\res\drawable-mdpi\outline_sports_bar_black_18.png" />
+    <AndroidResource Include="Resources\drawable\fine_dining\res\drawable-mdpi\outline_restaurant_black_18.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\beer_mug\res\drawable-mdpi\outline_sports_bar_black_20.png" />
+    <AndroidResource Include="Resources\drawable\fine_dining\res\drawable-mdpi\outline_restaurant_black_20.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\beer_mug\res\drawable-mdpi\outline_sports_bar_black_24.png" />
+    <AndroidResource Include="Resources\drawable\fine_dining\res\drawable-mdpi\outline_restaurant_black_24.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\beer_mug\res\drawable-mdpi\outline_sports_bar_black_36.png" />
+    <AndroidResource Include="Resources\drawable\fine_dining\res\drawable-mdpi\outline_restaurant_black_36.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\beer_mug\res\drawable-mdpi\outline_sports_bar_black_48.png" />
+    <AndroidResource Include="Resources\drawable\fine_dining\res\drawable-mdpi\outline_restaurant_black_48.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\beer_mug\res\drawable-xhdpi\outline_sports_bar_black_18.png" />
+    <AndroidResource Include="Resources\drawable\fine_dining\res\drawable-xhdpi\outline_restaurant_black_18.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\beer_mug\res\drawable-xhdpi\outline_sports_bar_black_20.png" />
+    <AndroidResource Include="Resources\drawable\fine_dining\res\drawable-xhdpi\outline_restaurant_black_20.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\beer_mug\res\drawable-xhdpi\outline_sports_bar_black_24.png" />
+    <AndroidResource Include="Resources\drawable\fine_dining\res\drawable-xhdpi\outline_restaurant_black_24.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\beer_mug\res\drawable-xhdpi\outline_sports_bar_black_36.png" />
+    <AndroidResource Include="Resources\drawable\fine_dining\res\drawable-xhdpi\outline_restaurant_black_36.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\beer_mug\res\drawable-xhdpi\outline_sports_bar_black_48.png" />
+    <AndroidResource Include="Resources\drawable\fine_dining\res\drawable-xhdpi\outline_restaurant_black_48.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\beer_mug\res\drawable-xxhdpi\outline_sports_bar_black_18.png" />
+    <AndroidResource Include="Resources\drawable\fine_dining\res\drawable-xxhdpi\outline_restaurant_black_18.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\beer_mug\res\drawable-xxhdpi\outline_sports_bar_black_20.png" />
+    <AndroidResource Include="Resources\drawable\fine_dining\res\drawable-xxhdpi\outline_restaurant_black_20.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\beer_mug\res\drawable-xxhdpi\outline_sports_bar_black_24.png" />
+    <AndroidResource Include="Resources\drawable\fine_dining\res\drawable-xxhdpi\outline_restaurant_black_24.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\beer_mug\res\drawable-xxhdpi\outline_sports_bar_black_36.png" />
+    <AndroidResource Include="Resources\drawable\fine_dining\res\drawable-xxhdpi\outline_restaurant_black_36.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\beer_mug\res\drawable-xxhdpi\outline_sports_bar_black_48.png" />
+    <AndroidResource Include="Resources\drawable\fine_dining\res\drawable-xxhdpi\outline_restaurant_black_48.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\beer_mug\res\drawable-xxxhdpi\outline_sports_bar_black_18.png" />
+    <AndroidResource Include="Resources\drawable\fine_dining\res\drawable-xxxhdpi\outline_restaurant_black_18.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\beer_mug\res\drawable-xxxhdpi\outline_sports_bar_black_20.png" />
+    <AndroidResource Include="Resources\drawable\fine_dining\res\drawable-xxxhdpi\outline_restaurant_black_20.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\beer_mug\res\drawable-xxxhdpi\outline_sports_bar_black_24.png" />
+    <AndroidResource Include="Resources\drawable\fine_dining\res\drawable-xxxhdpi\outline_restaurant_black_24.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\beer_mug\res\drawable-xxxhdpi\outline_sports_bar_black_36.png" />
+    <AndroidResource Include="Resources\drawable\fine_dining\res\drawable-xxxhdpi\outline_restaurant_black_36.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\beer_mug\res\drawable-xxxhdpi\outline_sports_bar_black_48.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\cafe_storefront\res\drawable\outline_storefront_24.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\cafe_storefront\res\drawable-hdpi\outline_storefront_black_18.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\cafe_storefront\res\drawable-hdpi\outline_storefront_black_20.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\cafe_storefront\res\drawable-hdpi\outline_storefront_black_24.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\cafe_storefront\res\drawable-hdpi\outline_storefront_black_36.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\cafe_storefront\res\drawable-hdpi\outline_storefront_black_48.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\cafe_storefront\res\drawable-mdpi\outline_storefront_black_18.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\cafe_storefront\res\drawable-mdpi\outline_storefront_black_20.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\cafe_storefront\res\drawable-mdpi\outline_storefront_black_24.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\cafe_storefront\res\drawable-mdpi\outline_storefront_black_36.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\cafe_storefront\res\drawable-mdpi\outline_storefront_black_48.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\cafe_storefront\res\drawable-xhdpi\outline_storefront_black_18.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\cafe_storefront\res\drawable-xhdpi\outline_storefront_black_20.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\cafe_storefront\res\drawable-xhdpi\outline_storefront_black_24.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\cafe_storefront\res\drawable-xhdpi\outline_storefront_black_36.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\cafe_storefront\res\drawable-xhdpi\outline_storefront_black_48.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\cafe_storefront\res\drawable-xxhdpi\outline_storefront_black_18.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\cafe_storefront\res\drawable-xxhdpi\outline_storefront_black_20.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\cafe_storefront\res\drawable-xxhdpi\outline_storefront_black_24.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\cafe_storefront\res\drawable-xxhdpi\outline_storefront_black_36.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\cafe_storefront\res\drawable-xxhdpi\outline_storefront_black_48.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\cafe_storefront\res\drawable-xxxhdpi\outline_storefront_black_18.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\cafe_storefront\res\drawable-xxxhdpi\outline_storefront_black_20.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\cafe_storefront\res\drawable-xxxhdpi\outline_storefront_black_24.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\cafe_storefront\res\drawable-xxxhdpi\outline_storefront_black_36.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\cafe_storefront\res\drawable-xxxhdpi\outline_storefront_black_48.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\fastfood\res\drawable\outline_fastfood_24.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\fastfood\res\drawable-hdpi\outline_fastfood_black_18.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\fastfood\res\drawable-hdpi\outline_fastfood_black_20.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\fastfood\res\drawable-hdpi\outline_fastfood_black_24.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\fastfood\res\drawable-hdpi\outline_fastfood_black_36.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\fastfood\res\drawable-hdpi\outline_fastfood_black_48.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\fastfood\res\drawable-mdpi\outline_fastfood_black_18.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\fastfood\res\drawable-mdpi\outline_fastfood_black_20.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\fastfood\res\drawable-mdpi\outline_fastfood_black_24.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\fastfood\res\drawable-mdpi\outline_fastfood_black_36.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\fastfood\res\drawable-mdpi\outline_fastfood_black_48.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\fastfood\res\drawable-xhdpi\outline_fastfood_black_18.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\fastfood\res\drawable-xhdpi\outline_fastfood_black_20.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\fastfood\res\drawable-xhdpi\outline_fastfood_black_24.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\fastfood\res\drawable-xhdpi\outline_fastfood_black_36.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\fastfood\res\drawable-xhdpi\outline_fastfood_black_48.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\fastfood\res\drawable-xxhdpi\outline_fastfood_black_18.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\fastfood\res\drawable-xxhdpi\outline_fastfood_black_20.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\fastfood\res\drawable-xxhdpi\outline_fastfood_black_24.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\fastfood\res\drawable-xxhdpi\outline_fastfood_black_36.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\fastfood\res\drawable-xxhdpi\outline_fastfood_black_48.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\fastfood\res\drawable-xxxhdpi\outline_fastfood_black_18.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\fastfood\res\drawable-xxxhdpi\outline_fastfood_black_20.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\fastfood\res\drawable-xxxhdpi\outline_fastfood_black_24.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\fastfood\res\drawable-xxxhdpi\outline_fastfood_black_36.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\fastfood\res\drawable-xxxhdpi\outline_fastfood_black_48.png" />
+    <AndroidResource Include="Resources\drawable\fine_dining\res\drawable-xxxhdpi\outline_restaurant_black_48.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\location\res\drawable\outline_place_24.xml" />
@@ -420,82 +261,241 @@
     <AndroidResource Include="Resources\drawable\location\res\drawable-xxxhdpi\outline_place_black_48.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\fine_dining\res\drawable\outline_restaurant_24.xml" />
+    <AndroidResource Include="Resources\drawable\fastfood\res\drawable\outline_fastfood_24.xml" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\fine_dining\res\drawable-hdpi\outline_restaurant_black_18.png" />
+    <AndroidResource Include="Resources\drawable\fastfood\res\drawable-hdpi\outline_fastfood_black_18.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\fine_dining\res\drawable-hdpi\outline_restaurant_black_20.png" />
+    <AndroidResource Include="Resources\drawable\fastfood\res\drawable-hdpi\outline_fastfood_black_20.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\fine_dining\res\drawable-hdpi\outline_restaurant_black_24.png" />
+    <AndroidResource Include="Resources\drawable\fastfood\res\drawable-hdpi\outline_fastfood_black_24.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\fine_dining\res\drawable-hdpi\outline_restaurant_black_36.png" />
+    <AndroidResource Include="Resources\drawable\fastfood\res\drawable-hdpi\outline_fastfood_black_36.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\fine_dining\res\drawable-hdpi\outline_restaurant_black_48.png" />
+    <AndroidResource Include="Resources\drawable\fastfood\res\drawable-hdpi\outline_fastfood_black_48.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\fine_dining\res\drawable-mdpi\outline_restaurant_black_18.png" />
+    <AndroidResource Include="Resources\drawable\fastfood\res\drawable-mdpi\outline_fastfood_black_18.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\fine_dining\res\drawable-mdpi\outline_restaurant_black_20.png" />
+    <AndroidResource Include="Resources\drawable\fastfood\res\drawable-mdpi\outline_fastfood_black_20.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\fine_dining\res\drawable-mdpi\outline_restaurant_black_24.png" />
+    <AndroidResource Include="Resources\drawable\fastfood\res\drawable-mdpi\outline_fastfood_black_24.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\fine_dining\res\drawable-mdpi\outline_restaurant_black_36.png" />
+    <AndroidResource Include="Resources\drawable\fastfood\res\drawable-mdpi\outline_fastfood_black_36.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\fine_dining\res\drawable-mdpi\outline_restaurant_black_48.png" />
+    <AndroidResource Include="Resources\drawable\fastfood\res\drawable-mdpi\outline_fastfood_black_48.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\fine_dining\res\drawable-xhdpi\outline_restaurant_black_18.png" />
+    <AndroidResource Include="Resources\drawable\fastfood\res\drawable-xhdpi\outline_fastfood_black_18.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\fine_dining\res\drawable-xhdpi\outline_restaurant_black_20.png" />
+    <AndroidResource Include="Resources\drawable\fastfood\res\drawable-xhdpi\outline_fastfood_black_20.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\fine_dining\res\drawable-xhdpi\outline_restaurant_black_24.png" />
+    <AndroidResource Include="Resources\drawable\fastfood\res\drawable-xhdpi\outline_fastfood_black_24.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\fine_dining\res\drawable-xhdpi\outline_restaurant_black_36.png" />
+    <AndroidResource Include="Resources\drawable\fastfood\res\drawable-xhdpi\outline_fastfood_black_36.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\fine_dining\res\drawable-xhdpi\outline_restaurant_black_48.png" />
+    <AndroidResource Include="Resources\drawable\fastfood\res\drawable-xhdpi\outline_fastfood_black_48.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\fine_dining\res\drawable-xxhdpi\outline_restaurant_black_18.png" />
+    <AndroidResource Include="Resources\drawable\fastfood\res\drawable-xxhdpi\outline_fastfood_black_18.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\fine_dining\res\drawable-xxhdpi\outline_restaurant_black_20.png" />
+    <AndroidResource Include="Resources\drawable\fastfood\res\drawable-xxhdpi\outline_fastfood_black_20.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\fine_dining\res\drawable-xxhdpi\outline_restaurant_black_24.png" />
+    <AndroidResource Include="Resources\drawable\fastfood\res\drawable-xxhdpi\outline_fastfood_black_24.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\fine_dining\res\drawable-xxhdpi\outline_restaurant_black_36.png" />
+    <AndroidResource Include="Resources\drawable\fastfood\res\drawable-xxhdpi\outline_fastfood_black_36.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\fine_dining\res\drawable-xxhdpi\outline_restaurant_black_48.png" />
+    <AndroidResource Include="Resources\drawable\fastfood\res\drawable-xxhdpi\outline_fastfood_black_48.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\fine_dining\res\drawable-xxxhdpi\outline_restaurant_black_18.png" />
+    <AndroidResource Include="Resources\drawable\fastfood\res\drawable-xxxhdpi\outline_fastfood_black_18.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\fine_dining\res\drawable-xxxhdpi\outline_restaurant_black_20.png" />
+    <AndroidResource Include="Resources\drawable\fastfood\res\drawable-xxxhdpi\outline_fastfood_black_20.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\fine_dining\res\drawable-xxxhdpi\outline_restaurant_black_24.png" />
+    <AndroidResource Include="Resources\drawable\fastfood\res\drawable-xxxhdpi\outline_fastfood_black_24.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\fine_dining\res\drawable-xxxhdpi\outline_restaurant_black_36.png" />
+    <AndroidResource Include="Resources\drawable\fastfood\res\drawable-xxxhdpi\outline_fastfood_black_36.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\fine_dining\res\drawable-xxxhdpi\outline_restaurant_black_48.png" />
+    <AndroidResource Include="Resources\drawable\fastfood\res\drawable-xxxhdpi\outline_fastfood_black_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\cafe_storefront\res\drawable\outline_storefront_24.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\cafe_storefront\res\drawable-hdpi\outline_storefront_black_18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\cafe_storefront\res\drawable-hdpi\outline_storefront_black_20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\cafe_storefront\res\drawable-hdpi\outline_storefront_black_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\cafe_storefront\res\drawable-hdpi\outline_storefront_black_36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\cafe_storefront\res\drawable-hdpi\outline_storefront_black_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\cafe_storefront\res\drawable-mdpi\outline_storefront_black_18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\cafe_storefront\res\drawable-mdpi\outline_storefront_black_20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\cafe_storefront\res\drawable-mdpi\outline_storefront_black_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\cafe_storefront\res\drawable-mdpi\outline_storefront_black_36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\cafe_storefront\res\drawable-mdpi\outline_storefront_black_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\cafe_storefront\res\drawable-xhdpi\outline_storefront_black_18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\cafe_storefront\res\drawable-xhdpi\outline_storefront_black_20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\cafe_storefront\res\drawable-xhdpi\outline_storefront_black_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\cafe_storefront\res\drawable-xhdpi\outline_storefront_black_36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\cafe_storefront\res\drawable-xhdpi\outline_storefront_black_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\cafe_storefront\res\drawable-xxhdpi\outline_storefront_black_18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\cafe_storefront\res\drawable-xxhdpi\outline_storefront_black_20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\cafe_storefront\res\drawable-xxhdpi\outline_storefront_black_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\cafe_storefront\res\drawable-xxhdpi\outline_storefront_black_36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\cafe_storefront\res\drawable-xxhdpi\outline_storefront_black_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\cafe_storefront\res\drawable-xxxhdpi\outline_storefront_black_18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\cafe_storefront\res\drawable-xxxhdpi\outline_storefront_black_20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\cafe_storefront\res\drawable-xxxhdpi\outline_storefront_black_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\cafe_storefront\res\drawable-xxxhdpi\outline_storefront_black_36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\cafe_storefront\res\drawable-xxxhdpi\outline_storefront_black_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\beer_mug\res\drawable\outline_sports_bar_20.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\beer_mug\res\drawable\outline_sports_bar_24.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\beer_mug\res\drawable-hdpi\outline_sports_bar_black_18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\beer_mug\res\drawable-hdpi\outline_sports_bar_black_20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\beer_mug\res\drawable-hdpi\outline_sports_bar_black_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\beer_mug\res\drawable-hdpi\outline_sports_bar_black_36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\beer_mug\res\drawable-hdpi\outline_sports_bar_black_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\beer_mug\res\drawable-mdpi\outline_sports_bar_black_18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\beer_mug\res\drawable-mdpi\outline_sports_bar_black_20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\beer_mug\res\drawable-mdpi\outline_sports_bar_black_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\beer_mug\res\drawable-mdpi\outline_sports_bar_black_36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\beer_mug\res\drawable-mdpi\outline_sports_bar_black_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\beer_mug\res\drawable-xhdpi\outline_sports_bar_black_18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\beer_mug\res\drawable-xhdpi\outline_sports_bar_black_20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\beer_mug\res\drawable-xhdpi\outline_sports_bar_black_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\beer_mug\res\drawable-xhdpi\outline_sports_bar_black_36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\beer_mug\res\drawable-xhdpi\outline_sports_bar_black_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\beer_mug\res\drawable-xxhdpi\outline_sports_bar_black_18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\beer_mug\res\drawable-xxhdpi\outline_sports_bar_black_20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\beer_mug\res\drawable-xxhdpi\outline_sports_bar_black_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\beer_mug\res\drawable-xxhdpi\outline_sports_bar_black_36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\beer_mug\res\drawable-xxhdpi\outline_sports_bar_black_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\beer_mug\res\drawable-xxxhdpi\outline_sports_bar_black_18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\beer_mug\res\drawable-xxxhdpi\outline_sports_bar_black_20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\beer_mug\res\drawable-xxxhdpi\outline_sports_bar_black_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\beer_mug\res\drawable-xxxhdpi\outline_sports_bar_black_36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\beer_mug\res\drawable-xxxhdpi\outline_sports_bar_black_48.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\pizza\res\drawable\outline_local_pizza_24.xml" />
@@ -652,6 +652,243 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\home\res\drawable-xxxhdpi\outline_home_black_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\bookmark\res\drawable\outline_bookmark_border_24.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\bookmark\res\drawable-hdpi\outline_bookmark_border_black_18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\bookmark\res\drawable-hdpi\outline_bookmark_border_black_20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\bookmark\res\drawable-hdpi\outline_bookmark_border_black_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\bookmark\res\drawable-hdpi\outline_bookmark_border_black_36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\bookmark\res\drawable-hdpi\outline_bookmark_border_black_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\bookmark\res\drawable-mdpi\outline_bookmark_border_black_18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\bookmark\res\drawable-mdpi\outline_bookmark_border_black_20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\bookmark\res\drawable-mdpi\outline_bookmark_border_black_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\bookmark\res\drawable-mdpi\outline_bookmark_border_black_36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\bookmark\res\drawable-mdpi\outline_bookmark_border_black_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\bookmark\res\drawable-xhdpi\outline_bookmark_border_black_18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\bookmark\res\drawable-xhdpi\outline_bookmark_border_black_20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\bookmark\res\drawable-xhdpi\outline_bookmark_border_black_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\bookmark\res\drawable-xhdpi\outline_bookmark_border_black_36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\bookmark\res\drawable-xhdpi\outline_bookmark_border_black_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\bookmark\res\drawable-xxhdpi\outline_bookmark_border_black_18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\bookmark\res\drawable-xxhdpi\outline_bookmark_border_black_20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\bookmark\res\drawable-xxhdpi\outline_bookmark_border_black_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\bookmark\res\drawable-xxhdpi\outline_bookmark_border_black_36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\bookmark\res\drawable-xxhdpi\outline_bookmark_border_black_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\bookmark\res\drawable-xxxhdpi\outline_bookmark_border_black_18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\bookmark\res\drawable-xxxhdpi\outline_bookmark_border_black_20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\bookmark\res\drawable-xxxhdpi\outline_bookmark_border_black_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\bookmark\res\drawable-xxxhdpi\outline_bookmark_border_black_36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\bookmark\res\drawable-xxxhdpi\outline_bookmark_border_black_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\trophy\res\drawable\outline_emoji_events_20.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\trophy\res\drawable\outline_emoji_events_24.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\trophy\res\drawable-hdpi\outline_emoji_events_black_18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\trophy\res\drawable-hdpi\outline_emoji_events_black_20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\trophy\res\drawable-hdpi\outline_emoji_events_black_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\trophy\res\drawable-hdpi\outline_emoji_events_black_36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\trophy\res\drawable-hdpi\outline_emoji_events_black_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\trophy\res\drawable-mdpi\outline_emoji_events_black_18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\trophy\res\drawable-mdpi\outline_emoji_events_black_20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\trophy\res\drawable-mdpi\outline_emoji_events_black_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\trophy\res\drawable-mdpi\outline_emoji_events_black_36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\trophy\res\drawable-mdpi\outline_emoji_events_black_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\trophy\res\drawable-xhdpi\outline_emoji_events_black_18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\trophy\res\drawable-xhdpi\outline_emoji_events_black_20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\trophy\res\drawable-xhdpi\outline_emoji_events_black_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\trophy\res\drawable-xhdpi\outline_emoji_events_black_36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\trophy\res\drawable-xhdpi\outline_emoji_events_black_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\trophy\res\drawable-xxhdpi\outline_emoji_events_black_18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\trophy\res\drawable-xxhdpi\outline_emoji_events_black_20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\trophy\res\drawable-xxhdpi\outline_emoji_events_black_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\trophy\res\drawable-xxhdpi\outline_emoji_events_black_36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\trophy\res\drawable-xxhdpi\outline_emoji_events_black_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\trophy\res\drawable-xxxhdpi\outline_emoji_events_black_18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\trophy\res\drawable-xxxhdpi\outline_emoji_events_black_20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\trophy\res\drawable-xxxhdpi\outline_emoji_events_black_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\trophy\res\drawable-xxxhdpi\outline_emoji_events_black_36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\trophy\res\drawable-xxxhdpi\outline_emoji_events_black_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\person\res\drawable\outline_person_24.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\person\res\drawable-hdpi\outline_person_black_18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\person\res\drawable-hdpi\outline_person_black_20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\person\res\drawable-hdpi\outline_person_black_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\person\res\drawable-hdpi\outline_person_black_36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\person\res\drawable-hdpi\outline_person_black_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\person\res\drawable-mdpi\outline_person_black_18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\person\res\drawable-mdpi\outline_person_black_20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\person\res\drawable-mdpi\outline_person_black_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\person\res\drawable-mdpi\outline_person_black_36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\person\res\drawable-mdpi\outline_person_black_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\person\res\drawable-xhdpi\outline_person_black_18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\person\res\drawable-xhdpi\outline_person_black_20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\person\res\drawable-xhdpi\outline_person_black_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\person\res\drawable-xhdpi\outline_person_black_36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\person\res\drawable-xhdpi\outline_person_black_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\person\res\drawable-xxhdpi\outline_person_black_18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\person\res\drawable-xxhdpi\outline_person_black_20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\person\res\drawable-xxhdpi\outline_person_black_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\person\res\drawable-xxhdpi\outline_person_black_36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\person\res\drawable-xxhdpi\outline_person_black_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\person\res\drawable-xxxhdpi\outline_person_black_18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\person\res\drawable-xxxhdpi\outline_person_black_20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\person\res\drawable-xxxhdpi\outline_person_black_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\person\res\drawable-xxxhdpi\outline_person_black_36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\person\res\drawable-xxxhdpi\outline_person_black_48.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

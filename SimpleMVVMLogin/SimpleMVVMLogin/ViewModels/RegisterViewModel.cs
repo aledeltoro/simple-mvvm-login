@@ -33,6 +33,7 @@ namespace SimpleMVVMLogin.ViewModels
             if (areFieldsFull && doPasswordsMatch)
             {
                 await App.Current.MainPage.DisplayAlert("Registration complete", $"Hey {user.Name}!", "Ok");
+                await App.Current.MainPage.Navigation.PopAsync();
                 return;
             }
 

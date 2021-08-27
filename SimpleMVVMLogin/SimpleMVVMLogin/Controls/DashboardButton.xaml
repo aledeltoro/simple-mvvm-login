@@ -11,6 +11,7 @@
             Padding="5">
             <Grid
                 RowDefinitions="Auto, Auto, Auto"
+                VerticalOptions="Center"
                >
                 <Image 
                     Grid.Row="0"
