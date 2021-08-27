@@ -4,7 +4,8 @@
              xmlns:viewmodels="clr-namespace:SimpleMVVMLogin.ViewModels" 
              x:DataType="viewmodels:RegisterViewModel"
              x:Class="SimpleMVVMLogin.Views.RegisterPage"
-             BackgroundColor="#1ea0c4">
+             BackgroundColor="#1ea0c4"
+             Title="Register">
     <ContentPage.Content>
         <Grid
             RowDefinitions="Auto, Auto, Auto, Auto, Auto, Auto"

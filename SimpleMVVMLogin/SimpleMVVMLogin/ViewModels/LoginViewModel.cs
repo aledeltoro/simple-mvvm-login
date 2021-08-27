@@ -43,11 +43,13 @@ namespace SimpleMVVMLogin.ViewModels
             if (isEmailEmpty)
             {
                 await App.Current.MainPage.DisplayAlert("Error", $"Email cannot be empty", "Ok");
+                return;
             }
 
             if (isPasswordEmpty)
             {
                 await App.Current.MainPage.DisplayAlert("Error", $"Password cannot be empty", "Ok");
+                return;
             }
         }
 
