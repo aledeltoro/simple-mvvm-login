@@ -54,7 +54,7 @@
                             TextDecorations="Underline">
 
                             <Span.GestureRecognizers>
-                                <TapGestureRecognizer Command="{Binding NavigateRegisterPageCommand}"/>
+                                <TapGestureRecognizer Command="{Binding NavigateToRegisterCommand}"/>
                             </Span.GestureRecognizers>
                         </Span>
                     </FormattedString>

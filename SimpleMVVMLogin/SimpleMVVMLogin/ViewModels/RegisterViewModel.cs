@@ -18,10 +18,10 @@ namespace SimpleMVVMLogin.ViewModels
         public event PropertyChangedEventHandler PropertyChanged;
         public RegisterViewModel()
         {
-            RegisterUserCommand = new Command<User>(RegisterUser);
+            RegisterUserCommand = new Command<User>(OnRegister);
         }
 
-        private async void RegisterUser(User user)
+        private async void OnRegister(User user)
         {
             bool isNameEmpty = string.IsNullOrEmpty(user.Name);
             bool isEmailEmpty = string.IsNullOrEmpty(user.Email);

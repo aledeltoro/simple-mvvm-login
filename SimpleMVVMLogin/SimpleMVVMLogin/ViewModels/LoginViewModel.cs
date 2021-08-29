@@ -14,20 +14,20 @@ namespace SimpleMVVMLogin.ViewModels
         public User User { get; set; } = new User();
 
         public ICommand LogUserCommand { get; set; }
-        public ICommand NavigateRegisterPageCommand { get; set; }
+        public ICommand NavigateToRegisterCommand { get; set; }
 
         public event PropertyChangedEventHandler PropertyChanged;
 
         public LoginViewModel()
         {
-            LogUserCommand = new Command<User>(LogUser);
-            NavigateRegisterPageCommand = new Command(async () =>
+            LogUserCommand = new Command<User>(OnLogin);
+            NavigateToRegisterCommand = new Command(async () =>
             {
                 await App.Current.MainPage.Navigation.PushAsync(new RegisterPage());
             });
         }
 
-        private async void LogUser(User user)
+        private async void OnLogin(User user)
         {
             bool isEmailEmpty = string.IsNullOrEmpty(user.Email);
             bool isPasswordEmpty = string.IsNullOrEmpty(user.Password);
